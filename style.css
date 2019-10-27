@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    padding:15px;
+    margin:10px;
+}
+#shadow{
+    text-shadow: 5px 2px 4px gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+p .word{
+    font-weight: bold;
+    font-size:25px;
+    font-family: cursive; 
+}
+
+p .link{
+    text-align: center;
+}
+
+ul{
+    font-size:25px;
+}
+
+    
+
+ul li a{
+    text-decoration: none;
+    color:black;
+    line-height: 40px;
+    word-spacing: 5px;
+}
+ul li#visit a{
+    color:blue;
+}
+
+h3.hadding{
+    font-weight: bolder;
+    font-size:25px;
+    text-transform: capitalize;
+}
+h3::first-letter{
+    font-size: 40px;
+}
+
+span #link{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
